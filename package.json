@@ -1,0 +1,32 @@
+{
+  "name": "paint_box_layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "prebuild": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superstarMann/Paint_Box_layout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superstarMann/Paint_Box_layout/issues"
+  },
+  "homepage": "https://github.com/superstarMann/Paint_Box_layout#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/register": "^7.13.8",
+    "del": "^6.0.0",
+    "gh-pages": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.1.0"
+  }
+}
